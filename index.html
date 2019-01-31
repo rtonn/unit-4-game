@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    
+    <script src="assets/javascript/game.js"></script>
+
+    <title>Unit-4-Game</title>
+
+</head>
+<body>
+
+<div class="container">
+
+
+    <div class="row" id="headingRow">        
+        <div class="col-md-12">
+            <h1>Crystal Collector</h1>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+            <div class="col-sm-2">
+              <p></p>
+            </div>
+            <div class="col-sm-2">
+              <img src="assets/images/redJewel.jpg"  class="img-thumbnail" id="image1" alt="Red Jewel">
+            </div>
+            <div class="col-sm-2">
+              <img src="assets/images/greenJewel.jpg"  class="img-thumbnail" id="image2" alt="Green Jewel">
+            </div>
+            <div class="col-sm-2">
+              <img src="assets/images/blueJewel.jpg"  class="img-thumbnail" id="image3" alt="Blue Jewel">
+            </div>
+            <div class="col-sm-2">
+              <img src="assets/images/yellowJewel.jpg"  class="img-thumbnail" id="image4" alt="Yellow Jewel">
+            </div>
+            <div class="col-sm-2">
+              <p></p>
+            </div>
+    </div>
+
+
+ 
+    <div class="row" id="totalsRow">
+            <div class="col-md-2">
+              <p></p>
+            </div> 
+
+            <div class="col-md-2" id=goalTotal>
+              <h4>Goal: <br>
+                  <span id= "randomNumber"></span></h4>
+            </div>
+        
+            <div class="col-md-2" id=yourTotal>
+              <h4>Your Total: <br>
+                  <span id="finalTotal"></span></h4>
+            </div>
+        
+            <div class="col-md-2">
+              <p></p>
+            </div>
+
+            <div class="col-md-2" id=winLose>
+              <p> Wins: <span id= "numberWins"></span></p>               
+              <p> Losses: <span id= "numberLosses"></span></p>            
+            </div>
+
+            <div class="col-md-2">
+              <p></p>
+            </div>        
+    </div>
+
+
+
+    <div class="row" id="textRow">
+            <div class="col-md-2">
+              <p></p>
+            </div>
+
+            <div class="col-md-8" id=instructions>
+              <h4><u>How to Play</u></h4>
+              <ul>
+              <li>You will be given a random number at the start of the game (Goal).</li> 
+              <li>You must click them gems until "Your Total" is equal to the "Goal".</li>
+              <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                  <ul>
+                    <li>The value of each crystal is hidden until it is clicked.</li>
+                    <li>Each time when the game starts, the game will change the values of each crystal.</li>                    
+                  </ul>
+              <li>You win the game by matching your total score to the random number.</li>  
+              <li>You lose the game if your total score goes above the random number.</li>                    
+              </ul> 
+            </div>
+
+            <div class="col-md-2">
+               <p></p>
+            </div>                       
+	</div>       
+    
+</div>       
+
+
+    
+</body>
+</html>
