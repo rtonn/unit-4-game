@@ -44,7 +44,8 @@ body {
 
 
 #instructions{
-border: 2px solid red;  
+border: 2px solid red;
+box-shadow: 10px 8px 5px rgb(75, 2, 2);
 }
 
 
@@ -53,7 +54,7 @@ border: 2px solid red;
     height: 120px; 
     width: 120px;
     padding: 0;
-    box-shadow: 15px 15px 8px grey;
+    box-shadow: 10px 8px 5px grey;
 }
 #image2{
     border: 3px solid #000;
